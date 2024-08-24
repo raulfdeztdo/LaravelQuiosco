@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Categoria;
-use Illuminate\Http\Request;
 use App\Http\Resources\CategoriaCollection;
+use App\Models\Categoria;
 
 class CategoriaController extends Controller
 {

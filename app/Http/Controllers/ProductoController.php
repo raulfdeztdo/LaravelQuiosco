@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\ProductoCollection;
 use App\Models\Producto;
 use Illuminate\Http\Request;
-use App\Http\Resources\ProductoCollection;
 
 class ProductoController extends Controller
 {
@@ -21,7 +21,6 @@ class ProductoController extends Controller
      */
     public function store(Request $request)
     {
-        //
     }
 
     /**
@@ -29,7 +28,6 @@ class ProductoController extends Controller
      */
     public function show(Producto $producto)
     {
-        //
     }
 
     /**
@@ -37,7 +35,6 @@ class ProductoController extends Controller
      */
     public function update(Request $request, Producto $producto)
     {
-        //
     }
 
     /**
@@ -45,6 +42,5 @@ class ProductoController extends Controller
      */
     public function destroy(Producto $producto)
     {
-        //
     }
 }
